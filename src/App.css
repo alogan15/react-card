@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,52 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* .main {
+  background-image: url(./images/reactlogo.png);
+  background-repeat: no-repeat;
+  background-position: 75%;
+} */
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+nav > h3, nav > h4 {
+  margin: 0;
+}
+
+nav > h3 {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav > img {
+  height: 30px;
+  margin-right: 7px;
+}
+
+
+::marker {
+  color:#61DAFB;
+  font-size: large;
+}
+
+h1 {
+  color: white;
+  margin-left: 10px;
 }
